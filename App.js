@@ -1,5 +1,5 @@
 import React from 'react';
-import { Login, Recipe } from "./screens";
+import { Home, Login, Recipe } from "./screens";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -30,6 +30,7 @@ const App = () => {
                 />
             </Stack.Navigator>
         </NavigationContainer>
+        // <Home/>
     )
 }
 

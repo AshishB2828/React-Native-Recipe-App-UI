@@ -32,10 +32,18 @@ const Home = ({ navigation }) => {
                         marginTop:3, color: COLORS.gray, ...FONTS.h2
                     }}>How about some food?</Text>
                 </View>
-                <Image
-                    source={images.profile}
-                    style={{width: 40, height: 40, borderRadius: 20}}
-                />
+                <View
+                    style={{
+                        width: 40, 
+                        height: 40, 
+                        borderRadius: 20, 
+                        backgroundColor: COLORS.darkGreen,
+                        alignItems:'center',
+                        justifyContent:'center'
+                    }}
+                >
+                    <Text style={{fontSize:25}}>A</Text>
+                </View>
             </View>
         )
     }

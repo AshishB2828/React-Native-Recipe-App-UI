@@ -51,6 +51,41 @@ const trendingRecipes = [
                 description: "Black Pepper",
                 quantity: "¼ tbsp"
             },
+            {
+                id: 7,
+                icon: icons.pepper,
+                description: "Black Pepper",
+                quantity: "¼ tbsp"
+            },
+            {
+                id: 8,
+                icon: icons.salt,
+                description: "Salt",
+                quantity: "¾ tbsp"
+            },{
+                id:9,
+                icon: icons.pasta,
+                description: "Spaghetti pasta",
+                quantity: "100g"
+            },
+            {
+                id: 10,
+                icon: icons.oil,
+                description: "Olive Oil",
+                quantity: "2 tbsp"
+            },
+            {
+                id: 13,
+                icon: icons.shrimp,
+                description: "Fresh Shrimp",
+                quantity: "100g"
+            },
+            {
+                id:14,
+                icon: icons.tomato,
+                description: "Campari tomatoes",
+                quantity: "100g"
+            },
 
         ],
         viewers: [
